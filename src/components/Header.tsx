@@ -2,7 +2,7 @@ import React from 'react';
 import Container from './ui/Container';
 import Button from './ui/Button';
 
-const Header: React.FC = () => {
+const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-primary-500 text-white">
       <Container>
