@@ -1,3 +1,9 @@
-export default function Container() {
-  return <div className="container">Container</div>
+import { ReactNode } from "react";
+
+interface ContainerProps {
+  children: ReactNode;
+}
+
+export default function Container({ children }: ContainerProps) {
+  return <div className=" w-full">{children}</div>;
 }
